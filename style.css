@@ -112,7 +112,6 @@ a {
 
 .general-section {
     margin-bottom: 30px;
-
 }
 
 .general-section h2 {
@@ -121,10 +120,6 @@ a {
     color: #3498db;
     border-bottom: 2px solid #ecf0f1;
     padding-bottom: 5px;
-}
-
-.general-section li {
-    list-style-type: none;
 }
 
 .general-section ul {
