@@ -73,11 +73,11 @@ header p {
     margin-left: 10px;
 }
 
-ul {
+.job ul {
     padding-left: 20px;
 }
 
-ul li {
+.job ul li {
     display: flex;
     margin-bottom: 10px;
     font-size: 14px;
@@ -87,7 +87,7 @@ ul li {
     align-items: center;
 }
 
-ul li::before {
+.job ul li::before {
     content: "•";
     color: #3498db;
     position: absolute;
@@ -110,8 +110,45 @@ a {
     text-align: center;
 }
 
-.decoration {
+.general-section {
+    margin-bottom: 30px;
+
+}
+
+.general-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #3498db;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.general-section li {
     list-style-type: none;
+}
+
+.general-section ul {
+    padding-left: 20px;
+}
+
+.general-section ul li {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #34495e;
+    padding-left: 20px;
+    position: relative;
+    align-items: center;
+}
+
+.general-section ul li::before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    line-height: 1;
+    top: 0;
 }
 
 .social-section {
@@ -129,5 +166,11 @@ a {
 
 .social-section li {
     list-style-type: none;
-    display: inline-block;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #34495e;
+    padding-left: 20px;
+    position: relative;
+    align-items: center;
 }
