@@ -1,0 +1,121 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #3498db;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.job, .education {
+    margin-bottom: 20px;
+}
+
+.job h3, .education h3 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.job h4, .education p {
+    font-size: 14px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.job p, .education p {
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #34495e;
+    padding-left: 20px;
+    position: relative;
+    align-items: center;
+}
+
+ul li::before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    line-height: 1;
+    top: 0;
+}
+
+li .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    text-align: center;
+}
+
+.social {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.decoration {
+    list-style-type: none;
+}
