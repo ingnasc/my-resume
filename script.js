@@ -9,4 +9,4 @@ function currentAge(){
     return age;
 } 
 
-document.getElementById('info').innerHTML = `Brasileiro, ${currentAge()} anos, Solteiro`;
+document.getElementById('info').innerHTML = `Brasileira, ${currentAge()} anos, solteira`;

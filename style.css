@@ -111,11 +111,24 @@ a {
     text-align: center;
 }
 
-.social {
-    list-style-type: none;
-    display: inline-block;
-}
-
 .decoration {
     list-style-type: none;
+}
+
+.social-section {
+    margin-bottom: 30px;
+
+}
+
+.social-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #3498db;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.social-section li {
+    list-style-type: none;
+    display: inline-block;
 }
