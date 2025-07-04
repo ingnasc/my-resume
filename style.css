@@ -86,14 +86,15 @@ header h1 {
     color: var(--texto-secundario) ;
 }
 
+.dark-mode header h1 {
+    color: var(--texto-secundario-dark);
+}
+
 header p {
     font-size: 14px;
     color: var(--texto-header);
 }
 
-.dark-mode header h1 {
-    color: var(--texto-secundario-dark);
-}
 .dark-mode header p {
     color: var(--texto-secundario-dark);
 }
@@ -112,6 +113,10 @@ header p {
 
 .dark-mode .section h2 {
     color: var(--texto-destaque-dark);
+}
+
+.section h3 {
+    color: var(--texto-secundario);
 }
 
 .job, .education {
