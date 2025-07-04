@@ -351,8 +351,6 @@ a {
 
     .general-section ul li {
         font-size: 9px;
-        padding: 0;
-        margin: 0;
     }
 
     .education h4 {
@@ -365,7 +363,5 @@ a {
     
     .job ul li {
         font-size: 9px;
-        padding: 0;
-        margin: 0;
     }
 }
