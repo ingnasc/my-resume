@@ -5,10 +5,20 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-color: #f0f2f5;
+    --font: #333;
+    --text-color: #000000;
+    --link-color: #3498db;
+    --button-bg: #f0f0f0;
+    --button-text: #000000;
+  }
+  
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
-    color: #333;
+    background-color: (--bg-color);
+    color: (--font);
     line-height: 1.6;
     padding: 20px;
     display: flex;
@@ -109,7 +119,7 @@ li .icon {
 }
 
 a {
-    color: #3498db;
+    color: (--link-color);
     text-decoration: none;
     text-align: center;
 }
@@ -172,3 +182,23 @@ a {
     position: relative;
     align-items: center;
 }
+
+#toggle-dark-mode {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --link-color: #8ab4f8;
+    --button-bg: #1e1e1e;
+    --button-text: #ffffff;
+  }
