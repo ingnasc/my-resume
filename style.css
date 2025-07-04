@@ -205,6 +205,8 @@ a {
 
 .general-section {
     margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
 }
 
 .general-section h2 {
