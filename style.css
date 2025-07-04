@@ -36,7 +36,6 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 5px;
-    z-index: 9999;
 }
   
 body {
@@ -74,6 +73,10 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+}
+
+button {
+    z-index: 99999;
 }
 
 .resumo {
