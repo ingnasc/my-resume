@@ -7,24 +7,47 @@
 
 :root {
     --bg-color: #f0f2f5;
-    --font: #333;
+    --letras: #333;
     --text-color: #000000;
-    --link-color: #3498db;
+    --link: #3498db;
     --button-bg: #f0f0f0;
     --button-text: #000000;
   }
   
 
+#toggle-dark-mode {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: (--bg-color);
-    color: (--font);
+    background-color: var(--bg-color);
+    color: var(--letras);
     line-height: 1.6;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    transition: background 0.3s, color 0.3s;
+
+}
+
+body .dark-mode {
+    --bg-color: #121212;
+    --letras: #e0e0e0;
+    --link: #8ab4f8;
+    --button-bg: #1e1e1e;
+    --button-text: #ffffff;
 }
 
 .container {
@@ -119,7 +142,7 @@ li .icon {
 }
 
 a {
-    color: (--link-color);
+    color: var(--link);
     text-decoration: none;
     text-align: center;
 }
@@ -183,22 +206,3 @@ a {
     align-items: center;
 }
 
-#toggle-dark-mode {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    background-color: var(--button-bg);
-    color: var(--button-text);
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  body.dark-mode {
-    --bg-color: #121212;
-    --text-color: #e0e0e0;
-    --link-color: #8ab4f8;
-    --button-bg: #1e1e1e;
-    --button-text: #ffffff;
-  }
