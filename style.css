@@ -15,8 +15,6 @@
     --texto-destaque: #3498db;
     --button-bg: #f0f0f0;
     --button-text: #000000;
-    --icon-color: #333;
-
 
     /* dark-mode */
     --bg-color-dark: #121212;
@@ -25,7 +23,6 @@
     --texto-secundario-dark: #e0e0e0;
     --texto-header-dark: #e0e0e0;
     --texto-destaque-dark: #8ab4f8;
-    --icon-color-dark: #e0e0e0;
   }
   
 
@@ -188,11 +185,11 @@ li .icon {
     height: 20px;
     margin-right: 10px;
     border-radius: 10px;
-    fill: var(--icon-color);
+    filter: none;
 }
 
 .dark-mode li .icon {
-    fill: var(--icon-color-dark);
+    filter: brightness(0) invert(1);
 }
 
 a {
