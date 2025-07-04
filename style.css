@@ -317,3 +317,51 @@ a {
   .dark-mode .skills-list li::before {
     color: var(--texto-destaque-dark);
   }
+
+
+  @media (max-width: 600px) {
+
+    body {
+      font-size: 14px; 
+    }
+  
+    header h1 {
+      font-size: 24px; 
+    }
+
+    header p {
+        font-size: 9px;
+    }
+
+    .section p {
+        font-size: 10px;
+    }
+
+    .section h2 {
+      font-size: 18px; 
+    }
+    
+    .section h3 {
+      font-size: 12px; 
+    } 
+
+    .general-section h2 {
+        font-size: 18px;
+    }
+
+    .general-section ul li {
+        font-size: 9px;
+    }
+
+    .education h4 {
+        font-size: 12px;
+    }
+
+    .job h4 {
+        font-size: 12px;
+    }
+    
+    .job ul li {
+        font-size: 9px;
+    }
+}
