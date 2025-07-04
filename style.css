@@ -129,7 +129,8 @@ header p {
     margin-bottom: 5px;
 }
 
-.dark-mode .job h3, .education h3 {
+.dark-mode .job h3, 
+.dark-mode .education h3 {
     color: var(--texto-secundario-dark);
 }
 
@@ -139,7 +140,8 @@ header p {
     margin-bottom: 10px;
 }
 
-.dark-mode .job h4, .education p {
+.dark-mode .job h4, 
+.dark-mode .education p {
     color: var(--texto-secundario-dark);
 }
 
