@@ -281,3 +281,36 @@ a {
     color: var(--texto-secundario-dark);
 }
 
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 20px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  
+  .skills-list li {
+    font-size: 14px;
+    color: var(--texto-secundario);
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .skills-list li::before {
+    content: "•";
+    color: var(--texto-destaque);
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    line-height: 1;
+    top: 0;
+  }
+  
+  .dark-mode .skills-list li {
+    color: var(--texto-secundario-dark);
+  }
+  
+  .dark-mode .skills-list li::before {
+    color: var(--texto-destaque-dark);
+  }
