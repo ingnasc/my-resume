@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURRÍCULO • Ingrid Caroline Pereira Nascimento</title>
     <link rel="icon" href="icons/favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
-<body>
 
+<body>
+    <div id="content">
     <div class="container">
         <header>
             <h1>INGRID CAROLINE PEREIRA NASCIMENTO</h1>
@@ -20,9 +21,9 @@
             <p>+55 75 98132-8123 | ingcnasc@gmail.com</p>
         </header>
 
-        <button id="toggle-dark-mode">🌙 Modo escuro</button>
+        <button id="toggle-dark-mode" class="no-print">🌙 Modo escuro</button>
 
-        <button id="savePdfBtn">🖨️ Salvar em PDF</button>
+        <button id="savePdfBtn" class="no-print">🖨️ Salvar em PDF</button>
 
         <section class="section">
             <div class="resume">
@@ -219,6 +220,7 @@
                 <li><img class="icon" src="./icons/whats.svg"><a href="https://wa.me/5575981328123" target="_blank">WhatsApp</a></li>
             </ul>
         </section>
+    </div>
     </div>
 
     <script type="text/javascript" src="script.js"></script>

@@ -51,6 +51,14 @@
     border-radius: 5px;
     z-index: 999999;
 }
+
+.no-print {
+    display: block;
+}
+
+body.printing .no-print {
+    display: none !important;
+}
   
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
