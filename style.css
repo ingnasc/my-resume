@@ -202,6 +202,11 @@ header p {
     font-size: 14px;
 }
 
+.dark-mode .certifications button {
+    background-color: var(--bg-color-dark); 
+    color: var(--text-highlight-dark);
+}
+
 button.courses {
     display: inline-block;
     background-color: #f0f0f0; 
@@ -211,6 +216,11 @@ button.courses {
     border-radius: 6px; 
     padding: 4px 8px;
     font-size: 11px;
+}
+
+.dark-mode button.courses {
+    background-color: var(--bg-color-dark); 
+    color: var(--text-highlight-dark);
 }
 
 .certifications h3 {
@@ -223,6 +233,10 @@ button.courses {
     margin-top: 2%;
     margin-left: 2%;
     color: var(--text-highlight);
+}
+
+.dark-mode .certifications h3, .certifications h4 {
+    color: var(--text-highlight-dark);
 }
 
 .certifications h5 {
@@ -238,6 +252,10 @@ button.courses {
 .projects h3 {
     color: var(--text-secondary);
     margin-bottom: 1%;
+}
+
+.dark-mode .projects h3 {
+    color: var(--text-highlight-dark);
 }
 
 .projects h4, p {
@@ -259,7 +277,7 @@ button.courses {
 }
 
 .dark-mode .job h3 {
-    color: var(--text-secondary-dark);
+    color: var(--text-highlight-dark);
 }
 
 .job h4 {
