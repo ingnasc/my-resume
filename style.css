@@ -235,7 +235,7 @@ button.courses {
     color: var(--text-highlight);
 }
 
-.dark-mode .certifications h3, .certifications h4 {
+.dark-mode .certifications h3, .dark-mode .certifications h4 {
     color: var(--text-highlight-dark);
 }
 
