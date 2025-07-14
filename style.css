@@ -13,7 +13,7 @@
     --text-secondary: #2C3E50;
     --text-header: #7f8c8d;
     --text-highlight: #3498db;
-    --button-bg: #f0f0f0;
+    --button-bg: #ffffff;
     --button-text: #000000;
 
     /* dark-mode */
@@ -28,7 +28,20 @@
 
 #toggle-dark-mode {
     position: fixed;
-    top: 1rem;
+    top: 1.5rem;
+    right: 1rem;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 999999;
+}
+
+#savePdfBtn {
+    position: fixed;
+    top: 4rem;
     right: 1rem;
     background-color: var(--button-bg);
     color: var(--button-text);
