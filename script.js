@@ -9,7 +9,7 @@ function currentAge() {
   return age;
 }
 
-document.getElementById('info').innerHTML = `Brasileira, Solteira, ${currentAge()} anos`;
+document.getElementById('info').innerHTML = `BRASILEIRA, SOLTEIRA, ${currentAge()} ANOS`;
 
 const toggleBtn = document.getElementById('toggle-dark-mode');
 const body = document.body;
