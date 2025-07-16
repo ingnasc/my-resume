@@ -38,27 +38,6 @@
     border-radius: 5px;
     z-index: 999999;
 }
-
-#savePdfBtn {
-    position: fixed;
-    top: 4rem;
-    right: 1rem;
-    background-color: var(--button-bg);
-    color: var(--button-text);
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    z-index: 999999;
-}
-
-.no-print {
-    display: block;
-}
-
-body.printing .no-print {
-    display: none !important;
-}
   
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
