@@ -481,10 +481,10 @@ a {
     } 
 
     .skills-grid {
-    display: grid;
-    padding: 1% 0% 8% 0%;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3%;
+        display: grid;
+        padding: 1% 0% 8% 0%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3%;
     }
 
     .education h4 {
