@@ -149,6 +149,19 @@ header p {
     color: var(--text-secondary);
 }
 
+h3.section-language {
+    font-size: 18px;
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+p.section-language {
+    padding-left: 2%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .skills-grid {
     display: grid;
     padding: 1% 0% 2% 2%;
