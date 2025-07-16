@@ -137,7 +137,7 @@ header p {
     margin-bottom: 15px;
     color: var(--text-highlight);
     border-bottom: 2px solid #ecf0f1;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 .dark-mode .section h2 {
@@ -146,6 +146,46 @@ header p {
 
 .section h3 {
     color: var(--text-secondary);
+}
+
+.skills-grid {
+    display: grid;
+    padding: 1% 0% 2% 2%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5%;
+}
+
+.skill {
+    margin-bottom: 16px;
+}
+
+.skill span {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 4px;
+    color: var(--text-secondary);
+}
+
+.dark-mode .skill span {
+    color: var(--text-secondary-dark);
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 12px;
+}
+
+.progress {
+    height: 100%;
+    background-color: var(--text-highlight);
+    transition: width 0.6s ease;
+}
+
+.dark-mode .progress {
+    background-color: var(--text-highlight-dark);
 }
 
 .resume {
