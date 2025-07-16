@@ -15,6 +15,7 @@
     --text-highlight: #3498db;
     --button-bg: #ffffff;
     --button-text: #000000;
+    --progress-bar: #ddd;
 
     /* dark-mode */
     --bg-color-dark: #121212;
@@ -172,10 +173,31 @@ header p {
 }
 
 .progress-bar {
-    background-color: #ddd;
+    background-color: var(--progress-bar);
     border-radius: 10px;
     overflow: hidden;
-    height: 12px;
+    height: 15px;
+    position: relative;
+}
+
+.progress-bar::after {
+    content: attr(data-label);
+    position: relative;
+    top: -25px;
+    left: 5%;
+    transform: translateX(-50%);
+    color: var(--bg-color);
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.progress-bar:hover::after {
+    opacity: 1;
 }
 
 .progress {
@@ -185,6 +207,10 @@ header p {
 }
 
 .dark-mode .progress {
+    background-color: var(--text-highlight-dark);
+}
+
+.dark-mode .progress-bar::after {
     background-color: var(--text-highlight-dark);
 }
 
