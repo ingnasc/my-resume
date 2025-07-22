@@ -162,6 +162,10 @@ p.section-language {
     font-weight: 400;
 }
 
+.dark-mode p.section-language, h3.section-language {
+    color: var(--text-secondary-dark);
+}
+
 .skills-grid {
     display: grid;
     padding: 1% 0% 2% 2%;
