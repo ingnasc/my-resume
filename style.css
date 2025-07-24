@@ -160,9 +160,14 @@ p.section-language {
     padding-left: 2%;
     font-size: 14px;
     font-weight: 400;
+    color: var(--text-secondary);
 }
 
-.dark-mode p.section-language, h3.section-language {
+.dark-mode p.section-language {
+    color: var(--text-secondary-dark);
+}
+
+.dark-mode h3.section-language {
     color: var(--text-secondary-dark);
 }
 
