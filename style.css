@@ -178,6 +178,14 @@ p.section-language {
     gap: 5%;
 }
 
+
+.skills-grid-2 {
+    display: grid;
+    padding: 1% 0% 2% 2%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+}
+
 .skill {
     margin-bottom: 16px;
 }
