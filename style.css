@@ -285,6 +285,7 @@ p.section-language {
 
 .certifications {
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .certifications button {
@@ -343,6 +344,12 @@ button.courses {
     margin-left: 4%;
     margin-bottom: 2%;
     font-size: 14px;
+}
+
+.lista-cursos {
+    display: none;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .projects h3 {
